@@ -9,7 +9,8 @@ import onLightBoxOverlayClick from './js/onLightBoxOverlayClick';
 refs.galleryEl.addEventListener('click', onImageClick);
 refs.closeBtnEl.addEventListener('click', onCloseBtnClick);
 refs.lightBoxOverlayEl.addEventListener('click', onLightBoxOverlayClick);
-refs.galleryEl.insertAdjacentHTML('beforeend', galleryMarkup);
 window.addEventListener('keydown', onEscBtnPress);
 
 const galleryMarkup = createGalleryMarkup(galleryItems);
+
+refs.galleryEl.insertAdjacentHTML('beforeend', galleryMarkup);
