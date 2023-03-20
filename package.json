@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09-gallery/"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/skifozzze/goit-js-hw-09-gallery/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
