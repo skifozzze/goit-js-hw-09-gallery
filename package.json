@@ -2,7 +2,7 @@
   "name": "goit-js-hw-09-gallery",
   "version": "2.0.0",
   "description": "",
-  "source": "index.js",
+  "source": "index.html",
   "homepage": "https://skifozzze.github.io/goit-js-hw-09-gallery/",
   "scripts": {
     "start": "parcel src/*.html",
